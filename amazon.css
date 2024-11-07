@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background-color: rgb(44, 42, 42);
+}
+.main1{
+    display: inline-block;
+    margin: 30px 30px 0px 0px;
+}
+.main1 i{
+    font-size: 40px;
+    color:white;
+}
+#icon{
+    margin-left: 30px;
+    background-color: blueviolet;
+    color: whitesmoke;
+    border-radius: 50%;
+    border: none;
+    padding: 7px;
+}
+button{
+    color: white;
+    background-color: black;
+    border-radius: 17px;
+    padding: 10px;
+    border: rgb(73, 72, 72) solid 2px;
+}
+.but{
+    margin:30px 0px 30px 45px;
+}
+.main2{
+    background-image: url(images/puspa1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    width: 100%;
+    
+}
+  #para{
+   color: white;
+   text-align: justify;
+   font-size: 1.5rem;
+   margin-top: -50px;
+   margin-left:40px;
+ }
+ #ion{
+    color: yellow;
+ }
+ h3{
+    color: white;
+    margin-left: 50px;
+    font-size: 30px;
+ }
+ #yy{
+    font-size: 35px;
+    margin-top: 5px;
+ }
+ #main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+    margin-bottom: 50px;
+ }
+ .main3 img{
+    border-radius: 10px;
+ }
+ #mont{
+    flex: 1;
+    margin-right:70%;
+    color: white;
+    font-size: 20px;
+ }
+.main4{
+    background-image: url("images/post4.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+
+}
+.main5{
+    background-image: url("images/post5.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    border-top: 2px solid whitesmoke ;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+
+}
+ul li{
+    display:inline-block;
+    margin: 40px;
+}
+a{
+    color: whitesmoke;
+}
+#kir{
+    color: white;
+    font-size: 30px;
+    margin-left: 5px;
+    
+}
+#kir:hover{
+    cursor: pointer;
+    color:white;
+    box-shadow: 5px 5px 45px  white;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+a:hover{
+   cursor: pointer;
+   color: white;
+}
+body{
+    margin-bottom: 0px;
+}
